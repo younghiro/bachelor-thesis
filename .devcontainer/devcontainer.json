@@ -1,0 +1,13 @@
+{
+    "name": "workspace",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "workspace",
+    "workspaceFolder": "/home/hiro/workspace",
+    "remoteUser": "hiro",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+      "vscjava.vscode-java-pack",
+      "vscjava.vscode-spring-initializr",
+      "vscjava.vscode-gradle"
+    ]
+  }
